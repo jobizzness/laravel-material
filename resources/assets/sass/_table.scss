@@ -1,0 +1,51 @@
+.app-table{
+    background-color: white;
+}
+
+.app-table-row{
+	display: flex;
+	padding: 0 16px;
+    align-items: center;
+}
+
+.app-table-row>*{
+	flex:1;
+}
+
+.app-table-row{
+	cursor: pointer;
+}
+
+.app-table-header > .app-table-column{
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    font-weight: 500;
+    padding: 16px 0;
+}
+
+.table-data>*{
+	padding: 14px 16px;
+    color: rgba(14, 14, 14, 0.62);
+    font-size: 15px;
+}
+
+.table-data>*:nth-child(odd) {
+     background-color: #f7f8f9;
+}
+
+.app-table-row.table-data{
+
+}
+
+.app-table-footer{
+	background: #9e9e9e;
+    padding: 32px 16px;
+}
+
+.status--green{
+    color: #009688;
+}
+
+.app-table-row:hover{
+	background-color: #eee;
+}

@@ -1,0 +1,14 @@
+.card{
+	background-color: $app--primary-bg;
+	width: 100%;
+	min-height: 100px;
+	border-radius: 4px;
+}
+
+.card.card-with--header .card-body{
+	padding: 16px;
+}
+
+.card.card-with--header header{
+    padding: 16px;
+}

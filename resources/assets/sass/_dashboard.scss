@@ -1,0 +1,50 @@
+
+.stats{
+	display: flex;
+	padding: 16px;
+	justify-content: space-between;
+}
+
+.stats>*{
+	min-width: 22%;
+}
+
+.stats-item--inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.stats-item--number{
+    font-weight: 500;
+    margin: 0 8px;
+    font-size: 24px;
+    border-right: 1px solid #fff9;
+    padding-right: 16px;
+}
+
+.stats.nested{
+	align-items: center;
+	justify-content: space-between;
+    flex: 1;
+
+	.stats-item--number{
+		font-size: 14px;
+		color: $app--primary;
+	    padding: 0;
+    	margin: 0;
+	}
+}
+
+.stats-item--inner.nested {
+    color: #868686;
+    justify-content: baseline;
+
+}
+
+.stats.nested > div{
+    margin-right: 16px;
+}
